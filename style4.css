@@ -1,0 +1,39 @@
+
+body{ 
+    background-image: url("zzz25.PNG");
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+.q{ 
+    width: 300px;
+    height: 200px;
+    float: right;
+}
+.r{ 
+    width: 300px;
+    height: 200px;
+    float: right;
+}
+.a{ 
+    color:rgb(180, 192, 14);
+    font-size: 23px;
+    margin: 20px;
+}
+@media screen and (max-width:1000px) {
+    .x a { 
+        padding:10px 15px;
+
+    }
+    .q{ 
+        width: 200px;
+        float: none;
+        border-radius: 50%;
+    }
+    .r{ 
+        width: 200px;
+        float: none;
+        border-radius: 50%;
+    }
+    
+}

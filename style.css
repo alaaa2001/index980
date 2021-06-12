@@ -1,0 +1,35 @@
+table,tr,td{ 
+    border: 2px solid white;
+    padding: 5px;
+    border-collapse: collapse;
+}
+body{ color:blue;
+    background-color: chartreuse;
+}
+input{
+    margin: 20px 70px;
+font-size: 20px;
+}
+label{ 
+    margin: 20px 70px;
+    font-size: 20px;
+}
+.z{ 
+    margin: 20px 70px;
+}
+@media screen and (max-width:1000px) {
+    input{
+            margin: 10px 30px;
+            font-size: 13px;
+    }
+    label{ 
+            margin: 10px 30px;
+            font-size: 13px;
+    }
+    .z{ 
+        margin: 10px 30px;
+    }
+    table,tr,td{ 
+        padding: 1px;
+    }
+}

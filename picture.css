@@ -1,0 +1,176 @@
+ul {
+    list-style-type: none;
+   margin: 0;
+    padding: 0;
+   overflow: hidden;
+   background-color: rgb(106, 208, 240);
+   width: 100%;
+}
+
+.x {
+float: left;
+}
+.x a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 50px;
+text-decoration: none;
+
+}
+
+ .x a:hover {
+background-color:gray;
+} 
+body{ 
+    background-color: darkcyan;
+
+}
+.b{ 
+    color:rgb(180, 192, 14);
+    font-size: 23px;
+    margin: 20px;
+}
+.a{ 
+    position: absolute;
+    width: 20%;
+    left:2%;
+    padding: 5px;
+    
+}
+.q{ 
+    width:100%;
+    height:200px;
+}
+.c{ 
+    position: absolute;
+    width: 20%;
+    left:27%;
+    padding: 5px;
+}
+.w{ 
+    width:100%;
+    height: 200px;
+}
+.d{ 
+    position: absolute;
+    width: 20%;
+    right:2%;
+    padding: 5px;
+}
+.r{ 
+    width:100%;
+    height:200px;
+}
+.e{ 
+    position: absolute;
+    width: 20%;
+    left:53%;
+    padding: 5px;
+}
+.t{ 
+    width:100%;
+    height: 200px;
+}
+.f{ 
+    position: absolute;
+    width: 20%;
+    left:2%;
+    bottom:20%;
+    padding: 5px;
+    
+}
+.y{ 
+    width:100%;
+    height:200px;
+}
+.g{ 
+    position: absolute;
+    width: 20%;
+    left:27%;
+    bottom: 20%;
+    padding: 5px;
+}
+.u{ 
+    width:100%;
+    height: 200px;
+}
+.h{ 
+    position: absolute;
+    width: 20%;
+    right:2%;
+    bottom: 20%;
+    padding: 5px;
+}
+.i{ 
+    width:100%;
+    height:200px;
+}
+.j{ 
+    position: absolute;
+    width: 20%;
+    left:53%;
+    bottom: 20%;
+    padding: 5px;
+}
+.o{ 
+    width:100%;
+    height: 200px;
+}
+
+@media screen and (max-width:1000px) {
+    .x a { 
+        padding:10px 15px;
+
+    }
+    .a{ 
+        width: 50%;
+        left:25%;
+        padding: 10px;
+    }
+    .c{ 
+        width: 50%;
+        left:25%;
+        top: 50%;
+    }
+    .d{ 
+        width: 50%;
+        left:25%;
+        top: 90%;
+        padding: 10px;
+    }
+    .e{ 
+        width: 50%;
+        left:25%;
+        top: 130%;
+        padding: 10px;
+    }
+
+    .f{ 
+        
+        width: 50%;
+        left:25%;
+        top:170%;
+        padding:10px;
+        
+    }
+    .g{ 
+        width: 50%;
+        left:25%;
+        top: 210%;
+        padding:10px;
+    }
+    .h{ 
+        width: 50%;
+        left:25%;
+        top: 250%;
+        padding: 10px;
+    }
+    .j{ 
+        width: 50%;
+        left:25%;
+        top: 290%;
+        padding:10px;
+    }
+    
+}
